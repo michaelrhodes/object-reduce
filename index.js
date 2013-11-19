@@ -7,7 +7,9 @@ module.exports = function(object, keys) {
   var result = {}
   while (n--) {
     key = keys[n]
-    result[key] = object[key] 
+    if (object.hasOwnProperty(key)) {
+      result[key] = object[key] 
+    }
   }
   return result
 }
