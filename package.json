@@ -1,0 +1,40 @@
+{
+  "name": "object-reduce",
+  "version": "0.0.0",
+  "description": "A function that reduces an Object to match a specified list of keys.",
+  "main": "index.js",
+  "dependencies": {
+    "arrayify": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [6, 7, 8, 9, 10],
+      "chrome": [20, 25, 29],
+      "firefox": [4, 19, 24],
+      "safari": [5.1, 6],
+      "opera": [10, 12, 15],
+      "iphone": [6],
+      "android": [4.2]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/object-reduce.git"
+  },
+  "keywords": [
+    "object",
+    "reduce"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/object-reduce/issues"
+  }
+}
