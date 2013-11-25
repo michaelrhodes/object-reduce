@@ -1,7 +1,5 @@
 module.exports = function(object, keys) {
-  var type = Object.prototype.toString.call(keys)
-  var isArray = type === '[object Array]'
-  if (!isArray) {
+  if (typeof keys == 'string') {
     keys = Array(keys)
   }
   var key
