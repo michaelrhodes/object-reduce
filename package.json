@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "description": "A function that reduces an Object to match a specified list of keys.",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "tape": "~2.1.0"
   },
